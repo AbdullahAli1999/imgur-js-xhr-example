@@ -1,6 +1,6 @@
-const clientId = "ae46f54c86c85c3";
+const clientId = "f20b60153f4fdcb";
 
-var defaultAlbumId = '';
+var defaultAlbumId = 'DKwnOHj';
 
 function requestAlbumXHR() {
     let albumId = document.getElementById("albumIdField").value;
