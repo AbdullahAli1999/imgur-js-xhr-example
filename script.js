@@ -3,7 +3,7 @@ const clientId = "d2518f38729593a";
 var defaultAlbumId = 'Jfni3';
 
 function requestAlbumXHR() {
-    let albumId = document.getElementById("albumIdField").innerText;
+    let albumId = document.getElementById("albumIdField").value;
     let resultDiv = document.getElementById("result");
     resultDiv.innerHTML = "";
     var req = new XMLHttpRequest();
